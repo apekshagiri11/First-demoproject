@@ -17,6 +17,7 @@ public class Login_Account_TC {
         DriverM.initDriver();
         driver = DriverM.getDriver();
         driver.get(Config.get("BaseURL"));
+        System.out.println("Added the changes for testing for GIT");
         //Thread.sleep(2000);
     }
 
